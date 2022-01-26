@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Coffeelock CheeseTracker</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="warlock_level">Warlock Level</string>
+    <string name="sorcerer_level">Sorcerer Level</string>
+    <string name="sorcery_points">Sorcery Points</string>
+    <string name="cast">Cast</string>
+    <string name="pact_slots">Pact Slots</string>
+
+    <string name="mo_temp_label">Temp</string>
+    <string name="mo_reg_label">Reg</string>
+    <string name="mo_L1_label">Level 1</string>
+    <string name="mo_L2_label">Level 2</string>
+    <string name="mo_L3_label">Level 3</string>
+    <string name="mo_L4_label">Level 4</string>
+    <string name="mo_L5_label">Level 5</string>
+    <string name="mo_override_values">Override Values</string>
+
+    <string name="title_activity_hack_book_of_shadows">Hack Book Of Shadows</string>
+    <string name="book_which_spell">Which spell do you wish to cast?</string>
+    <string name="book_which_level">At what level?</string>
+    <string name="book_overload_warning">Are you sure you want to cast this? It is more powerful than your current casting ability and will cause unpredictable results!</string>
+    <string name="book_int_check">Make your Intelligence Check</string>
+    <string name="book_rolled_dice">Use this\nroll</string>
+    <string name="book_roll_for_mel">Roll for me</string>
+    <string name="extra_modifier">Extra\nModifier</string>
+    <string name="book_roll_wild_magic_fail">You failed your intelligence check and the spell backfired without casting.  You still used a slot and now must roll to see what the effects are.</string>
+    <string name="book_roll_wild_magic_success">Your inteligence check succeeded and you successfully cast the spell.  Click button to return to magic screen.</string>
+    <string name="book_roll_wild_magic_forced_success">This spell\'s power was immense but you managed to cast it anyway.  However you could not completely control the magical energy unleashed and it caused random effects.  Now roll to see what the effects are.</string>
+    <string name="book_roll_wild_magic_forced_failure">This spell was too powerful for you and it backfired.  A random effect resulted from the backfiring.  Now roll to see what the effects are.</string>
+    <string name="book_spell_descriptions">Spell Descriptions</string>
+    <string name="book_return_button">Return</string>
+
+
+    <string name="add_modifier_dialog_text">Enter any numerical modifiers to your roll here. Be sure to include + or -.</string>
+    <string name="add_modifier_button_text">Roll for me using this die</string>
+
+    <string name="save_title">Save Character</string>
+    <string name="load_title">Load Character</string>
+    <string name="save_prompt">Are you sure you want to overwrite the previous save?</string>
+    <string name="load_prompt">Are you sure you want to load your previously saved data?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+
+
+
+
+</resources>

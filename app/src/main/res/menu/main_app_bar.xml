@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/undo_white"
+        android:title="undo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_load"
+        android:icon="@drawable/load"
+        android:title="load"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/save"
+        android:title="save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_manual_override"
+        android:icon="@drawable/manual_override_white"
+        android:title="Manual Override Settings"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_about"
+        android:title="about"
+        app:showAsAction="never"/>
+
+</menu>

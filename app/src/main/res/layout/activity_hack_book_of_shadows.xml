@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HackBookOfShadows">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarHackBookOfShadows"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Base.V7.Theme.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/title_activity_hack_book_of_shadows" />
+
+    <Spinner
+        android:id="@+id/bookSpellSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/book_which_spell"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarHackBookOfShadows" />
+
+    <TextView
+        android:id="@+id/bookMakeIntCheckText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/book_int_check"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookAtWhatLevel" />
+
+    <EditText
+        android:id="@+id/bookINTCheck"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/bookUseManualINTRoll"
+        app:layout_constraintStart_toStartOf="@+id/bookUseManualINTRoll"
+        app:layout_constraintTop_toBottomOf="@+id/bookMakeIntCheckText" />
+
+    <Button
+        android:id="@+id/bookUseManualINTRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="useThisRollButton"
+        android:text="@string/book_rolled_dice"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/bookMakeIntCheckText"
+        app:layout_constraintTop_toBottomOf="@+id/bookINTCheck" />
+
+    <Button
+        android:id="@+id/bookAutoINTRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="rollIntCheckForMeButton"
+        android:text="@string/book_roll_for_mel"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bookINTCheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bookIntModifier" />
+
+    <TextView
+        android:id="@+id/bookIntCheckSF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/book_roll_wild_magic_fail"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookUseManualINTRoll" />
+
+    <EditText
+        android:id="@+id/bookWildMagicRoll"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/bookUseManualWildMagicRoll"
+        app:layout_constraintStart_toStartOf="@+id/bookUseManualWildMagicRoll"
+        app:layout_constraintTop_toBottomOf="@+id/bookIntCheckSF" />
+
+    <Button
+        android:id="@+id/bookUseManualWildMagicRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="useThisRollWildMagicButton"
+        android:text="@string/book_rolled_dice"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/bookUseManualINTRoll"
+        app:layout_constraintTop_toBottomOf="@+id/bookWildMagicRoll" />
+
+    <Button
+        android:id="@+id/bookAutoWildMagicRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="rollWildMagicForMeButton"
+        android:text="@string/book_roll_for_mel"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bookWildMagicRoll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bookWildMagicRoll" />
+
+    <TextView
+        android:id="@+id/bookAtWhatLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/book_which_level"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookSpellDescriptionScrollWindow" />
+
+    <Spinner
+        android:id="@+id/bookLevelSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bookAtWhatLevel"
+        app:layout_constraintTop_toTopOf="@+id/bookAtWhatLevel" />
+
+    <TextView
+        android:id="@+id/bookIntModifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bookINTCheck"
+        app:layout_constraintStart_toEndOf="@+id/bookINTCheck" />
+
+    <ScrollView
+        android:id="@+id/bookWildMagicScrollWindow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookUseManualWildMagicRoll">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
+            android:divider="@color/black"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/bookWildMagicEffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="textview"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="185dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <TextView
+                android:id="@+id/bookWildMagicSupplementalText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="textview"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="271dp" />
+
+            <TextView
+                android:id="@+id/bookWildMagicSupplementalText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="textview"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="326dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <!--android:layout_height="333dp"-->
+    <ScrollView
+        android:id="@+id/bookSpellDescriptionScrollWindow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="400dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookSpellSpinner"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/bookSpellDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/book_spell_descriptions"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookSpellSpinner" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bookExtraModifierButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="createAddModDialog"
+        android:text="@string/extra_modifier"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bookUseManualINTRoll"
+        app:layout_constraintEnd_toEndOf="@+id/bookAutoINTRoll"
+        app:layout_constraintStart_toStartOf="@+id/bookAutoINTRoll" />
+
+    <Button
+        android:id="@+id/bookReturnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnButton"
+        android:text="@string/book_return_button"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toEndOf="@+id/bookUseManualWildMagicRoll"
+        app:layout_constraintTop_toBottomOf="@+id/bookAutoWildMagicRoll" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

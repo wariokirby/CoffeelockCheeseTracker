@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlotGeneratorActivity">
+
+
+    <TextView
+        android:id="@+id/numL4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L4Slots"
+        app:layout_constraintStart_toStartOf="@+id/L4Slots"
+        app:layout_constraintTop_toBottomOf="@+id/inc2" />
+
+    <TextView
+        android:id="@+id/L4Slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:text="L4 Slots"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numL4" />
+
+    <TextView
+        android:id="@+id/numL5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/L5Slots"
+        app:layout_constraintEnd_toEndOf="@+id/L5Slots"
+        app:layout_constraintStart_toStartOf="@+id/L5Slots" />
+
+    <TextView
+        android:id="@+id/L5Slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="L5 Slots"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inc3" />
+
+    <TextView
+        android:id="@+id/numL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L1Slots"
+        app:layout_constraintStart_toStartOf="@+id/L1Slots"
+        app:layout_constraintTop_toBottomOf="@+id/generateSlots" />
+
+    <TextView
+        android:id="@+id/L1Slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="L1 Slots"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numL1" />
+
+    <Button
+        android:id="@+id/dec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="12"
+        android:text="-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L2Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L2Slots" />
+
+    <Button
+        android:id="@+id/dec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="11"
+        android:text="-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L1Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L1Slots" />
+
+    <Button
+        android:id="@+id/dec4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="14"
+        android:text="-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L4Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L4Slots" />
+
+    <Button
+        android:id="@+id/dec5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="15"
+        android:text="-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L5Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L5Slots" />
+
+    <Button
+        android:id="@+id/dec3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="13"
+        android:text="-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L3Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L3Slots" />
+
+    <Button
+        android:id="@+id/inc4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="4"
+        android:text="+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/L4Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L4Slots" />
+
+    <Button
+        android:id="@+id/inc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="3"
+        android:text="+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/L3Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L3Slots" />
+
+    <Button
+        android:id="@+id/inc5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="5"
+        android:text="+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/L5Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L5Slots" />
+
+    <Button
+        android:id="@+id/inc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="2"
+        android:text="+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/L2Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L2Slots" />
+
+    <Spinner
+        android:id="@+id/generateSlots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slotGeneratorAppBar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/L2Slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:text="L2 Slots"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numL2" />
+
+    <TextView
+        android:id="@+id/numL3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L3Slots"
+        app:layout_constraintStart_toStartOf="@+id/L3Slots"
+        app:layout_constraintTop_toBottomOf="@+id/dec1" />
+
+    <TextView
+        android:id="@+id/numL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/L2Slots"
+        app:layout_constraintStart_toStartOf="@+id/L2Slots"
+        app:layout_constraintTop_toBottomOf="@+id/generateSlots" />
+
+    <TextView
+        android:id="@+id/L3Slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="L3 Slots"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numL3" />
+
+    <Button
+        android:id="@+id/inc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="spellChooser"
+        android:tag="1"
+        android:text="+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/L1Slots"
+        app:layout_constraintTop_toBottomOf="@+id/L1Slots" />
+
+    <TextView
+        android:id="@+id/spPool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/numL5"
+        app:layout_constraintEnd_toStartOf="@+id/numL4"
+        app:layout_constraintStart_toEndOf="@+id/numL3"
+        app:layout_constraintTop_toBottomOf="@+id/generateSlots"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points Remaining"
+        app:layout_constraintEnd_toEndOf="@+id/spPool"
+        app:layout_constraintStart_toStartOf="@+id/spPool"
+        app:layout_constraintTop_toBottomOf="@+id/spPool" />
+
+    <Button
+        android:id="@+id/genSlots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:onClick="confirmSlots"
+        android:text="Generate Slots"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cancel"
+        app:layout_constraintTop_toBottomOf="@+id/inc5" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:onClick="cancel"
+        android:text="Cancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/genSlots"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/slotGeneratorAppBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Base.V7.Theme.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Slot Generator" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

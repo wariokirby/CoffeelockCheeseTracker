@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invisible">INVISIBLE\nAn invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature\'s location can be detected by any noise it makes or any tracks it leaves.\n
+        Attack rolls against the creature have disadvantage, and the creature\'s attack rolls have advantage.</string>
+
+    <string name="prone">PRONE\nA prone creature\'s only movement option is to crawl, unless it stands up and thereby ends the condition.\n
+        The creature has disadvantage on attack rolls.\n
+        An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</string>
+
+    <string name="difficult_terrain">DIFFICULT TERRAIN\nThe travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble-filled ruins, steep mountains, and ice-covered ground—all considered difficult terrain.\n
+        You move at half speed in difficult terrain—moving 1 foot in difficult terrain costs 2 feet of speed—so you can cover only half the normal distance in a minute, an hour, or a day.</string>
+
+    <string name="frightened">FRIGHTENED\nA frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n
+        The creature can\'t willingly move closer to the source of its fear.</string>
+
+    <string name="incapacitated">INCAPACITATED\nAn incapacitated creature can\'t take actions or reactions.</string>
+
+    <string name="poisoned">A poisoned creature has disadvantage on attack rolls and ability checks.</string>
+
+    <string name="blinded">BLINDED\nA blinded creature can\'t see and automatically fails any ability check that requires sight.\n
+        Attack rolls against the creature have advantage, and the creature\'s attack rolls have disadvantage.</string>
+
+    <string name="Unconscious">UNCONCIOUS\nAn unconscious creature is incapacitated, can\'t move or speak, and is unaware of its surroundings.\n
+        The creature drops whatever it\'s holding and falls prone.\n
+        The creature automatically fails Strength and Dexterity saving throws.\n
+        Attack rolls against the creature have advantage.\n
+        Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</string>
+
+    <string name="blindsight">BLINDSIGHT\nA monster with blindsight can perceive its surroundings without relying on sight, within a specific radius.\n
+        Creatures without eyes, such as grimlocks and gray oozes, typically have this special sense, as do creatures with echolocation or heightened senses, such as bats and true dragons.\n
+        If a monster is naturally blind, it has a parenthetical note to this effect, indicating that the radius of its blindsight defines the maximum range of its perception.</string>
+
+    <string name="truesight">TRUESIGHT\nA monster with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the monster can see into the Ethereal Plane within the same range.</string>
+
+</resources>

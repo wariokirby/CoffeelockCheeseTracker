@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="fireball">CASTING TIME 1 Action | RANGE/AREA 150 ft (20 ft sphere) | COMPONENTS V, S, M (a tiny ball of bat guano and sulfur) | DURATION Instantaneous | SCHOOL Evocation | DEX Save | DAMAGE Fire\n
+        A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.\n
+        The fire spreads around corners. It ignites flammable objects in the area that aren\'t being worn or carried.\n
+        At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</string>
+
+    <string name="magic_missile">CASTING TIME 1 Action | RANGE 120 ft | COMPONENTS V, S | DURATION Instantaneous | SCHOOL Evocation | DAMAGE Force\n
+        You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.\n
+        At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</string>
+
+    <string name="confusion">CASTING TIME 1 Action/tRANGE/AREA 90 ft (10 ft sphere)/tCOMPONENTS V, S, M (three nut shells) | DURATION Concentration 1 Minute | SCHOOL Enchantment | SAVE WIS Save | EFFECT Control\n
+        This spell assaults and twists creatures\' minds, spawning delusions and provoking uncontrolled action. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.\n
+        An affected target can\'t take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.\n
+        d10 | Behavior\n
+        1/tThe creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn\'t take an action this turn.\n
+        2-6 | %The creature doesn\'t move or take actions this turn.\n
+        7-8 | The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.\n
+        9-10 | The creature can act and move normally./n
+        At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.\n
+        At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.</string>
+
+    <string name="grease">CASTING TIME 1 Action | RANGE/AREA 60 ft (10 ft square) | COMPONENTS V, S, M (a bit of pork rind or butter) | DURATION 1 Minute | SCHOOL Conjuration | SAVE DEX Save | EFFECT Prone\n
+        Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.\n
+        When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.</string>
+
+    <string name="remove_curse">CASTING TIME 1 Action | RANGE Touch | COMPONENTS V, S | DURATION Instantaneous | SCHOOL Abjuration | EFFECT Buff\n
+        At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner\'s attunement to the object so it can be removed or discarded.</string>
+
+    <string name="levitate">CASTING TIME 1 Action | RANGE 60 ft | COMPONENTS V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end) | DURATION Concentration 10 Minutes | SCHOOL Transmutation | SAVE CON Save | EFFECT Movement\n
+        One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.\n
+        The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target\'s altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell\'s range.\n
+        When the spell ends, the target floats gently to the ground if it is still aloft.</string>
+
+    <string name="fog_cloud">CASTING TIME 1 Action | RANGE/AREA 120 ft (20 ft sphere) | COMPONENTS V, S | DURATION Concentration 1 Hour | SCHOOL Conjuration | EFFECT Control\n
+        You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.\n
+        At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.</string>
+
+    <string name="polymorph">CASTING TIME 1 Action | RANGE 60 ft | COMPONENTS V, S, M (a caterpillar cocoon) | DURATION Concentration 1 Hour | SCHOOL Transmutation | SAVE WIS Save | EFFECT Control\n
+        This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a shapechanger or a creature with 0 hit points.\n
+        The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target\'s (or the target\'s level, if it doesn\'t have a challenge rating). The target\'s game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.\n
+        The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn\'t reduce the creature\'s normal form to 0 hit points, it isn\'t knocked unconscious.\n
+        The creature is limited in the actions it can perform by the nature of its new form, and it can\'t speak, cast spells, or take any other action that requires hands or speech.\n
+        The target\'s gear melds into the new form. The creature can\'t activate, use, wield, or otherwise benefit from any of its equipment.</string>
+
+    <string name="mirror_image">CASTING TIME 1 Action | RANGE Self | COMPONENTS V, S | DURATION 1 Minute | SCHOOL Illusion | EFFECT Deception\n
+        Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it\'s impossible to track which image is real. You can use your action to dismiss the illusory duplicates.\n
+        Each time a creature targets you with an attack during the spell\'s duration, roll a d20 to determine whether the attack instead targets one of your duplicates.\n
+        If you have three duplicates, you must roll a 6 or higher to change the attack\'s target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.\n
+        A duplicate\'s AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.\n
+        A creature is unaffected by this spell if it can\'t see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</string>
+
+    <string name="fly">CASTING TIME 1 Action | RANGE Touch | COMPONENTS V, S, M (a wing feather from any bird) | DURATION Concentration 10 Minutes | SCHOOL Transmutation | EFFECT Movement\n
+        You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.\n
+        At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</string>
+
+    <string name="reincarnate">CASTING TIME 1 Hour | RANGE Touch | COMPONENTS V, S, M (rare oils and unguents worth at least 1,000 gp, which the spell consumes) | DURATION Instantaneous | SCHOOL Transmutation | EFFECT Healing\n
+        You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target\'s soul isn\'t free or willing to do so, the spell fails.\n
+        The magic fashions a new body for the creature to inhabit, which likely causes the creature\'s race to change. The GM rolls a d100 and consults the following table to determine what form the creature takes when restored to life, or the GM chooses a form.\n
+        01-04 Dragonborn | 05-13 Dwarf, hill | 14-21 Dwarf, mountain | 22-25 Elf, dark | 26-34 Elf, high | 35-42 Elf, wood | 43-46 Gnome, forest | 47-52 Gnome, rock | 53-56 Half-elf | 57-60 Half-orc | 61-68 Halfling, lightfoot | 69-76 Halfling, stout | 77-96 Human | 97-100 Tiefling\n
+        The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.</string>
+
+    <string name="light">CASTING TIME 1 Action | RANGE/AREA Touch/20 ft sphere* | COMPONENTS V, M (a firefly or phosphorescent moss) | DURATION 1 Hour | SCHOOL Evocation | SAVE DEX Save | EFFECT Creation\n
+        You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.\n
+        If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</string>
+
+    <string name="sacred_flame">CASTING TIME 1 Action | RANGE 60 ft | COMPONENTS V, S | DURATION Instantaneous | SCHOOL Evocation | SAVE DEX Save | DAMAGE Radiant\n
+        Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.\n
+        The spell\'s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</string>
+
+    <string name="thaumaturgy">CASTING TIME 1 Action | RANGE 30 ft | COMPONENTS V | DURATION 1 Minute | SCHOOL Transmutation | EFFECT Control\n
+        You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range:\n
+        Your voice booms up to three times as loud as normal for 1 minute.\n
+        You cause flames to flicker, brighten, dim, or change color for 1 minute.\n
+        You cause harmless tremors in the ground for 1 minute.\n
+        You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n
+        You instantaneously cause an unlocked door or window to fly open or slam shut.\n
+        You alter the appearance of your eyes for 1 minute.\n
+        If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</string>
+
+    <string name="burning_hands">CASTING TIME 1 Action | RANGE/AREA Self/15 ft cone | COMPONENTS V, S | DURATION Instantaneous | SCHOOL Evocation | SAVE DEX Save | DAMAGE Fire\n
+        As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n
+        The fire ignites any flammable objects in the area that aren\'t being worn or carried.\n
+        At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</string>
+
+    <string name="command">CASTING TIME 1 Action | RANGE 60 ft | COMPONENTS V | DURATION 1 Round | SCHOOL Enchantment | SAVE WIS Save | EFFECT Prone\n
+        You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn\'t understand your language, or if your command is directly harmful to it.\n
+        Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can\'t follow your command, the spell ends.\n
+        Approach. The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n
+        Drop. The target drops whatever it is holding and then ends its turn.\n
+        Flee. The target spends its turn moving away from you by the fastest available means.\n
+        Grovel. The target falls prone and then ends its turn.\n
+        Halt. The target doesn\'t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.\n
+        At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</string>
+
+    <string name="disguise_self">CASTING TIME 1 Action | RANGE Self | COMPONENTS V, S | DURATION 1 Hour | SCHOOL Illusion | EFFECT Shapechanging\n
+        You make yourself-including your clothing, armor, weapons, and other belongings on your person-look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can\'t change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\n
+        The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\n
+        To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</string>
+
+    <string name="false_life">CASTING TIME 1 Action | RANGE Self | COMPONENTS V, S, M (a small amount of alcohol or distilled spirits) | DURATION 1 Hour | SCHOOL Necromancy | EFFECT Buff\n
+        Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.\n
+        At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.</string>
+
+    <string name="inflict_wounds">CASTING TIME 1 Action | RANGE Touch | COMPONENTS V, S | DURATION Instantaneous | SCHOOL Necromancy | ATTACK  Melee | DAMAGE Necrotic\n
+        Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.\n
+        At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</string>
+
+    <string name="shield_of_faith">CASTING TIME 1 Bonus Action | RANGE 60 ft | COMPONENTS V, S, M (a small parchment with a bit of holy text written on it) | DURATION Concentration 10 Minutes | SCHOOL Abjuration | EFFECT Buff\n
+        A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.</string>
+
+    <string name="unseen_servant">CASTING TIME 1 Action Ritual | RANGE 60 ft | COMPONENTS V, S, M (a bit of string and of wood) | DURATION 1 Hour | SCHOOL Conjuration | EFFECT Control\n
+        This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can\'t attack. If it drops to 0 hit points, the spell ends.\n
+        Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.\n
+        If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.</string>
+
+    <string name="hold_person">CASTING TIME 1 Action | RANGE 60 ft | COMPONENTS V, S, M (a small, straight piece of iron) | DURATION Concentration 1 Minute | SCHOOL Enchantment | SAVE WIS Save | EFFECT Paralyzed\n
+        Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.\n
+        At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</string>
+
+    <string name="spiritual_weapon">CASTING TIME 1 Bonus Action | RANGE 60 ft | COMPONENTS V, S | DURATION 1 Minute | SCHOOL Evocation | ATTACK Melee | DAMAGE Force\n
+        You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.\n
+        As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.\n
+        The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell\'s effect resemble that weapon.\n
+        At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above 2nd.</string>
+
+    <string name="animate_dead">CASTING TIME 1 Minute | RANGE 10 ft | COMPONENTS V, S, M (a drop of blood, a piece of flesh, and a pinch of bone dust) | DURATION Instantaneous | SCHOOL Necromancy | EFFECT Creation\n
+        This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the GM has the creature\'s game statistics).\n
+        On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.\n
+        The creature is under your control for 24 hours, after which it stops obeying any command you\'ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.\n
+        At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.</string>
+
+    <string name="speak_with_dead">CASTING TIME 1 Action | RANGE 10 ft | COMPONENTS V, S, M (burning incense) | DURATION 10 Minutes | SCHOOL Necromancy | EFFECT Communication\n
+        You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can\'t be undead. The spell fails if the corpse was the target of this spell within the last 10 days.\n
+        Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn\'t return the creature\'s soul to its body, only its animating spirit. Thus, the corpse can\'t learn new information, doesn\'t comprehend anything that has happened since it died, and can\'t speculate about future events.</string>
+
+    <string name="charm_person">Casting Time: 1 action | Range/Area: 30ft. | Components: V, S | Duration: 1 hour | Attack/Save: WIS 13 | Source: PHB, pg. 221\n
+        You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.\n
+        At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.
+    </string>
+
+    <string name="feather_fall">Casting Time: 1 reaction, which you take when you or a creature within 60 feet of you falls | Range/Area: 60ft. | Components: V, M(a small feather or piece of down) | Duration: 1 minute | Source: PHB, pg. 239\n
+        Choose up to five falling creatures within range. A falling creature\'s rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.
+    </string>
+
+    <string name="identify">Casting Time: 1 minute | Range/Area: Touch | Components: V, S, M(a pearl worth at least 100 gp and an owl feather) | Duration: Instantaneous | Source: PHB, pg. 252\n
+        You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.\n
+        If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.
+    </string>
+
+    <string name="mage_armor">Casting Time: 1 action | Range/Area: Touch | Components: V, S, M(a piece of cured leather) | Duration: 8 hours | Source: PHB, pg. 256\n
+        You touch a willing creature who isn\'t wearing armor, and a protective magical force surrounds it until the spell ends. The target\'s base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.</string>
+
+    <string name="sleep">Casting Time: 1 action | Range/Area: 90ft./20ft. sphere | Components: V, S, M(a pinch of fine sand, rose petals, or a cricket) | Duration: 1 minute | Source: PHB, pg. 276\n
+        This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).\n
+        Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected.\n
+        Undead and creatures immune to being charmed aren’t affected by this spell.\n
+        At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.
+    </string>
+
+</resources>
