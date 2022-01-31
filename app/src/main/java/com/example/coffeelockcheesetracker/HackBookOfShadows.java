@@ -64,7 +64,7 @@ public class HackBookOfShadows extends AppCompatActivity {
         Toolbar hackBOSAppBar = (Toolbar) findViewById(R.id.toolbarHackBookOfShadows);
         setSupportActionBar(hackBOSAppBar);
         ActionBar ab = getSupportActionBar();
-        ab.setDisplayHomeAsUpEnabled(true);
+        //ab.setDisplayHomeAsUpEnabled(true);
 
         Intent intent = getIntent();
         INTMod = intent.getIntExtra("int_mod" , 0);

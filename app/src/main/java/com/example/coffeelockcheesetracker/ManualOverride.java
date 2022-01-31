@@ -20,7 +20,7 @@ public class ManualOverride extends AppCompatActivity {
         Toolbar manualOverrideAppBar = (Toolbar) findViewById(R.id.manualOverrideAppBar);
         setSupportActionBar(manualOverrideAppBar);
         ActionBar ab = getSupportActionBar();
-        ab.setDisplayHomeAsUpEnabled(true);
+        //ab.setDisplayHomeAsUpEnabled(true);
 
         data = new String[15];
     }//end onCreate
